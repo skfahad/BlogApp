@@ -6,8 +6,6 @@
         auth_user_id = '{{Auth::id()}}';
     @endauth
 
-        console.log(auth_user_id);
-
     $.ajaxSetup({
         headers: {
             'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content'),
